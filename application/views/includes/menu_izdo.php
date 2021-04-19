@@ -71,7 +71,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/ListaDocumentos')?>" class="nav-link">
+          <a href="https://proyecto-firma.herokuapp.com/index.php/ListaDocumentos" class="nav-link">
           <ion-icon name="document-text-outline"></ion-icon>
 
               <p>
