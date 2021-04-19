@@ -76,7 +76,7 @@
                                           </div>
 
                                           <img src="" alt="Una vez confirmada la firma, aquí podrá visualizarla y arrastrarla hacia el documento." id="imgFirma" width="225" height="100" style="border: solid 1px #660708; margin-top: 30px; margin-left: 110px"  ondragstart="drag(event)">
-                                          <form method="post" action="<?= base_url('assets/actualizacionPDF.php')?>" id="cargaImgServer">
+                                          <form method="post" action="https://proyecto-firma.herokuapp.com/assets/actualizacionPDF.php" id="cargaImgServer">
                                             <textarea name="urlImgFirma" id="urlImgFirma" style="display: none;"></textarea>
                                             <textarea name="tituloDocumento" id="tituloDocumento" style="display: none;"></textarea>
                                             <textarea name="baseUrl" id="baseUrl" style="display: none;" value="<?php echo base_url(); ?>"></textarea>
