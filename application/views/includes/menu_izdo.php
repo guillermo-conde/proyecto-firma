@@ -23,7 +23,7 @@
           
 
          <li class="nav-item">
-            <a href="<?= base_url('index.php/Dashboard')?>" class="nav-link">
+            <a href="<?= base_url('dashboard')?>" class="nav-link">
              
               
             <ion-icon name="apps-outline"></ion-icon>
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="<?= base_url('index.php/busqueda')?>" class="nav-link">
+            <a href="<?= base_url('Busqueda')?>" class="nav-link">
               
             <ion-icon name="search-outline"></ion-icon>
 
@@ -48,7 +48,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/documentosafirmausuario')?>" class="nav-link">
+          <a href="<?= base_url('documentosafirmausuario')?>" class="nav-link">
           <ion-icon name="folder-open-outline"></ion-icon>
 
               <p>
@@ -59,19 +59,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/firma')?>" class="nav-link">
-              
-              <ion-icon name="pencil-outline"></ion-icon>
-
-              <p>
-                Firmar Documentos
-                <span class="right badge badge-danger"></span>
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-          <a href="https://proyecto-firma.herokuapp.com/index.php/ListaDocumentos" class="nav-link">
+          <a href="<?= base_url('Listadocumentos')?>" class="nav-link">
           <ion-icon name="document-text-outline"></ion-icon>
 
               <p>
