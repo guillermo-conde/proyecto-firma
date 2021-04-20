@@ -12,7 +12,7 @@
 		
 
 		//ruta donde se guardará el documento firmado.
-		$rutaDestino = $base_URL.'docfirmados/'.$nombreDocumento.'-firmado.pdf';
+		$rutaDestino = 'https://firma-proyecto.herokuapp.com/assets/docfirmados/'.$nombreDocumento.'-firmado.pdf';
 
 		$divisionURL = explode(',', $urlImagen);
 		$imgDecodificada = base64_decode($divisionURL[1]);
@@ -43,7 +43,7 @@
 		mysqli_query($conexion, "UPDATE documentos SET status=1, urlfirmado='$rutaDestino' WHERE IdDocumento='$id'");
 
 		//Camiamos a la vista de 
-		header('Location: http://127.0.0.1/tyai8e/index.php/ListaDocumentos');
+		header('Location: https://firma-proyecto.herokuapp.com/index.php/ListaDocumentos');
 	}
 
  ?>

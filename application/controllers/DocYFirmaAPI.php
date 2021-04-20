@@ -22,16 +22,16 @@ class DocYFirmaAPI extends REST_Controller {
 	}
 	
 	public function actualizar_post() {
-		$id = $this->input->post('idDocumento', TRUE);
+		$id = $this->input->post('id', TRUE);
 		$titulo = $this->input->post('titulo', TRUE);
-		$fechaCarg = $this->input->post('fechaCarg', TRUE);
+		$fecha = $this->input->post('fecha', TRUE);
 		$status = $this->input->post('status', TRUE);
 		$url = $this->input->post('url', TRUE);
 		$matricula = $this->input->post('matricula', TRUE);
 		$alumno = $this->input->post('alumno', TRUE);
 		$urlfirmado = $this->input->post('urlfirmado', TRUE);
 
-		if ($query = $this->Mdocumentos->actualizar_documento($id, $titulo, $fechaCarg, $status, $url, $matricula, $alumno, $urlfirmado)) {
+		if ($query = $this->Mdocumentos->actualizar_documento($id, $titulo, $fecha, $status, $url, $matricula, $alumno, $urlfirmado)) {
 			$response['message']= "Actualización exitosa";
 			$this->response($response);
 		} else {
@@ -42,7 +42,7 @@ class DocYFirmaAPI extends REST_Controller {
 
 	public function insertar_post() {
 		$titulo = $this->input->post('titulo', TRUE);
-		$fechaCarg = $this->input->post('fechaCarg', TRUE);
+		$fechaCarg = $this->input->post('fecha', TRUE);
 		$status = $this->input->post('status', TRUE);
 		$url = $this->input->post('url', TRUE);
 		$matricula = $this->input->post('matricula', TRUE);
