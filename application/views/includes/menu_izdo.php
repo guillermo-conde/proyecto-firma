@@ -23,7 +23,7 @@
           
 
          <li class="nav-item">
-            <a href="<?= base_url('/index/dashboard')?>" class="nav-link">
+            <a href="<?= base_url('/index.php/dashboard')?>" class="nav-link">
              
               
             <ion-icon name="apps-outline"></ion-icon>
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="<?= base_url('/index/Busqueda')?>" class="nav-link">
+            <a href="<?= base_url('/index.php/Busqueda')?>" class="nav-link">
               
             <ion-icon name="search-outline"></ion-icon>
 
@@ -48,7 +48,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('/index/documentosafirmausuario')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/documentosafirmausuario')?>" class="nav-link">
           <ion-icon name="folder-open-outline"></ion-icon>
 
               <p>
@@ -59,7 +59,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('/index/ListaDocumentos')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/ListaDocumentos')?>" class="nav-link">
           <ion-icon name="document-text-outline"></ion-icon>
 
               <p>
