@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="sidemain.css">
 
     <!-- Brand Logo -->
-    <center><img src="<?= base_url('assets/docs/assets/img/logo_uptx.png')?>"  width=200px  height=90px class="logo"/></center>
+    <center><img src="<?= base_url('/assets/docs/assets/img/logo_uptx.png')?>"  width=200px  height=90px class="logo"/></center>
 
     <!-- Sidebar -->
     <div id="sidebar">
@@ -23,7 +23,7 @@
           
 
          <li class="nav-item">
-            <a href="<?= base_url('dashboard')?>" class="nav-link">
+            <a href="<?= base_url('/index/dashboard')?>" class="nav-link">
              
               
             <ion-icon name="apps-outline"></ion-icon>
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="<?= base_url('Busqueda')?>" class="nav-link">
+            <a href="<?= base_url('/index/Busqueda')?>" class="nav-link">
               
             <ion-icon name="search-outline"></ion-icon>
 
@@ -48,7 +48,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('documentosafirmausuario')?>" class="nav-link">
+          <a href="<?= base_url('/index/documentosafirmausuario')?>" class="nav-link">
           <ion-icon name="folder-open-outline"></ion-icon>
 
               <p>
@@ -59,7 +59,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('Listadocumentos')?>" class="nav-link">
+          <a href="<?= base_url('/index/ListaDocumentos')?>" class="nav-link">
           <ion-icon name="document-text-outline"></ion-icon>
 
               <p>
@@ -70,7 +70,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/')?>" class="nav-link">
           <ion-icon name="cloud-upload-outline"></ion-icon>
 
               <p>
@@ -81,7 +81,7 @@
           </li>
          
           <li class="nav-item">
-          <a href="<?= base_url('index.php/')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/')?>" class="nav-link">
           <ion-icon name="cloud-upload-outline"></ion-icon>
 
               <p>
@@ -92,7 +92,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/')?>" class="nav-link">
           <ion-icon name="cloud-upload-outline"></ion-icon>
 
               <p>
@@ -103,7 +103,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/')?>" class="nav-link">
           <ion-icon name="file-tray-full-outline"></ion-icon>
 
               <p>
@@ -114,7 +114,7 @@
           </li>
 
           <li class="nav-item">
-          <a href="<?= base_url('index.php/')?>" class="nav-link">
+          <a href="<?= base_url('/index.php/')?>" class="nav-link">
           <ion-icon name="file-tray-full-outline"></ion-icon>
 
               <p>
