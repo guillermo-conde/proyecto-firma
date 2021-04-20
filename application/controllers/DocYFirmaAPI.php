@@ -49,7 +49,7 @@ class DocYFirmaAPI extends REST_Controller {
 		$alumno = $this->input->post('alumno', TRUE);
 		$urlfirmado = $this->input->post('urlfirmado', TRUE);
 
-		if ($query = $this->Mdocumentos->insertar_documento($titulo, $fechaCarg, $status, $url, $matricula, $alumno, $urlfirmado)) {
+		if ($query = $this->Mdocumentos->insertar_documento($titulo, $fecha, $status, $url, $matricula, $alumno, $urlfirmado)) {
 			$response['message']= "Inserción exitosa";
 			$this->response($response);
 		} else {

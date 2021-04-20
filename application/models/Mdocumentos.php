@@ -54,9 +54,9 @@ class Mdocumentos extends CI_Model
 		return $this->db->update('documentos');
 	}
 
-	public function insertar_documento($titulo, $fechaCarg, $status, $url, $matricula, $alumno, $urlfirmado){
+	public function insertar_documento($titulo, $fecha, $status, $url, $matricula, $alumno, $urlfirmado){
 		$this->db->set('titulo', $titulo);
-		$this->db->set('fechaCarg', $fechaCarg);
+		$this->db->set('fechaCarg', $fecha);
 		$this->db->set('status', $status);
 		$this->db->set('url', $url);
 		$this->db->set('matricula', $matricula);
